@@ -1,0 +1,14 @@
+<?php
+
+enum OrderStatus:string
+{
+    case PENDING="pending";
+    case CONFIRMED="confirmed";
+    case PROCESSING ="processing";
+    case PROCESSED ="processed";
+    case CANCELLED = "cancelled";
+    case RETURNED ="returned";
+    case REFUNDED ="refunded";
+    case AWAITING_PAYMENT = "awaiting_payment";
+}
+
